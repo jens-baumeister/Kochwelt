@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kochwelt Homepage</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"nrel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" type="icon" href="./img/logo_small.png" />
+    <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
-    
+
+  <header>
     <nav class="navigation">
         <div class="navigation_left">
           <a class="navigation_logo" href="index.html">
@@ -23,18 +24,23 @@
         <div class="navigation_right">
           <nav class="navigationbar">
             <a href="index.html">Start</a>
-            <a href="rezeptdestages.html">Rezept des Tages></a>
+            <a href="rezeptdestages.html">Rezept des Tages</a>
             <a href="kontakt.html">Kontakt</a>
-            <a href="impressum.html">Impressum></a>
+            <a href="impressum.html">Impressum</a>
           </nav>
         </div>
- </nav>
-
+    </nav>
+  </header>
+  <main>  
       <section class="homepage_section1">
+        <div class="half-section">
           <img class="img_tagesgericht" src="./img/salad.jpg" alt="salad" />
-          <h1 class="tagesgericht_headline">Jens Goulach</h1>
-          <p class="homepage_section1_text">Gulasch ist eine Fleischspeise ungarischen Ursprungs. Was in allen anderen Ländern „Gulasch“, „Gulyas“ oder „goulash“ heißt, ist jedoch in Ungarn das Pörkölt bzw. Paprikás</p>
+          </div>
+          <div class="half_section">
+          <h1 class="tagesgericht_headline">Jens Goulasch</h1>
+          <p class="homepage_section1_text">Gulasch ist eine Fleischspeise ungarischen Ursprungs. Was in allen anderen Ländern „Gulasch“, „Gulyas“ oder „goulash“ heißt, ist jedoch in Ungarn das Pörkölt bzw. Paprikás</p><br>
           <a href="rezeptdestages.html"><button>Rezept Öffnen</button></a>
+          </div>
       </section>
 
       <section class="homepage_section2">
@@ -49,6 +55,7 @@
 
               <a class="homepage_section2_image_link3" href="dimitrirezept.html"><img class="img_dimitrirezept" src="./img/croissant.jpg" alt="croissant" /></a>
               <span class="homepage_section2_images_captions">Currywurst</span>
+              
       </section>
 
      <section class="homepage_section3">
@@ -62,6 +69,7 @@
     </section>
   </div>
   </div>
+  </main>
 
 
 
