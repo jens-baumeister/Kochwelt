@@ -63,14 +63,27 @@ a:hover{
     padding-bottom: 16px;
     
 }
-.content {
-    max-width: 1440px;
+
+.half_section {
+    max-width: 720px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
 }
+
 .homepage_section1 {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin-top: 160px;
+}
+
+.homepage_section1 img {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+
 }
 
 
