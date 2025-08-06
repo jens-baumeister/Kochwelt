@@ -66,29 +66,144 @@ a:hover{
 
 .half_section {
     max-width: 720px;
+    min-width: 720px;;
+    padding-left: 24px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    text-align: left;
+
 }
 
 .homepage_section1 {
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: left;
     margin-top: 160px;
+    margin-bottom: 60px;
 }
 
 .homepage_section1 img {
-    width: 600px;
+    width: 560px;
     height: auto;
     border-radius: 8px;
+    margin-left: 24px;
+}
+
+.homepage_section1 button {
+    width: 160px;
+    height: 40px;
+    background-color: #018000;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.tagesgericht_headline {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.homepage_section2 {
+    background-color: #EFEFEF;
+    width: 100%;
+    min-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.homepage_section2_headline {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.homepage_section2 img {
+    width: 240px;
+    border-radius: 4px;
+    /* margin-left: 24px;
+    margin-right: 24px; */
+}
+
+.recipe_overview {
+    max-width: 1440px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex: 1 1 0%;
+}
+
+.recipes {
+    /* max-width: 480px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.homepage_section3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.homepage_section3 img {
+    width: 240px;
+    height: auto;
+    border-radius: 4px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.blog {    
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-letter {
+    max-width: 840px;
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 0;
+    height: 160px;
+    width: 100%;
+    background-color: #403B3B;
+}
+
+.navigation_logo {
+    max-width: 1440px;
 
 }
 
 footer {
     background-color: #403B3B;
 }
+
 
 
 
