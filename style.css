@@ -200,8 +200,25 @@ footer {
 
 }
 
-footer {
-    background-color: #403B3B;
+.img_own_recipe {
+    max-width: 1980px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img_recipe_description {
+    height: 30px;
+    width: 30px;
+}
+
+.display_flex {
+    display: flex;
+
+}
+
+.recipe_descrition_details {
+    display: flex;
 }
 
 
