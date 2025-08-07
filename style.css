@@ -221,6 +221,15 @@ footer {
     display: flex;
 }
 
+.Profil_personal_img {
+    width: 100px;
+    margin-right: 25px;   
+}
+
+.Personal_Profil_Recipe {
+    display: flex;
+    align-items: center;
+}
 
 
 
